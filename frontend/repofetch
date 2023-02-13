@@ -12,16 +12,16 @@ stages {
 
 			steps	{
 
-					sh 'cd frontend'
+					sh "cd frontend;
 
 
-					sh 'npm install typescript'
+					npm install typescript;
 
 
-					sh 'npm install cypress --save-dev'  
+					npm install cypress --save-dev;
             
 
-					sh 'npm run'
+					npm run cypress:run"
 
 
 				}
