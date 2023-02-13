@@ -12,7 +12,7 @@ stages {
 
 			steps	{
 
-					sh "cd frontend; npm install typescript; npm install cypress --save-dev; npm run cypress:run"
+					sh "cd frontend; npm install typescript --legacy-peer-deps; npm install cypress --save-dev --legacy-peer-deps; npm run cypress:run"
 
 				}
 
